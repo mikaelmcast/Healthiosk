@@ -1,0 +1,1472 @@
+@import url("login.css");
+
+@import url('https://fonts.googleapis.com/css?family=Basic');
+
+/*iMac*/
+@media screen and (min-width:2560px) { 
+    body {
+        background: no-repeat;
+        font-family: 'Basic', sans-serif;
+        min-height: 100vh;
+        background: linear-gradient(to bottom, #022B3A, #1F7A83);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .loginForm body {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .containerBg {
+        background-color: #E1E5F2;
+        width: 600px;
+        height: 650px;
+        margin: 0;
+        padding: 0;
+        border-radius: 4%;
+        box-shadow: 0 0px 20px 0 #022B3A;
+    }
+    
+    .logo {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .logo img {
+        width: 80%;
+        margin-left: 30px;
+        margin-bottom: 550px;
+    }
+    
+    .LoginTitle {
+        font-family: 'Basic';
+        position: absolute;
+        margin-right: 400px;
+        font-size: 20px;
+        margin-bottom: 420px;
+    }
+    
+    .LoginTitle h1 {
+        font-family: 'Basic';
+        font-weight: 100;
+    }
+
+    .formStyle .username {
+        position: absolute;
+        margin-left: -550px;
+        margin-top: -140px;
+        font-family: 'Basic';
+        width: 429px;
+        height: 52px;
+        border-radius: 50px;
+        padding-left: 20px;
+        background-color: #022B3A;
+        font-size: 20px;
+        border: 1px solid #022B3A;
+        color: #E1E5F2;
+        width: 450px;
+    }
+
+    .username::placeholder {
+        font-family: 'Basic';
+        color: #E1E5F2;
+        opacity: 0.7;
+    }
+
+    .formStyle .password {
+        position: absolute;
+        margin-left: -550px;
+        margin-top: -60px;
+        font-family: 'Basic';
+        width: 429px;
+        height: 52px;
+        border-radius: 50px;
+        padding-left: 20px;
+        background-color: #022B3A;
+        font-size: 20px;
+        border: 1px solid #022B3A;
+        color: #E1E5F2;
+        width: 450px;
+    }
+
+    .password::placeholder {
+        font-family: 'Basic';
+        color: #E1E5F2;
+        opacity: 0.7;
+    }
+
+    .formStyle .login {
+        position: absolute;
+        margin-left: -550px;
+        margin-top: 100px;
+        font-family: 'Basic';
+        width: 200px;
+        height: 52px;
+        border-radius: 50px;
+        padding-left: 20px;
+        background-color: #1F7A83;
+        font-size: 20px;
+        border: 1px solid #1F7A83;
+        color: #E1E5F2;
+        cursor: pointer;
+    }
+
+    .login:hover {
+        background: linear-gradient(to bottom, #022B3A, #1F7A83);
+    }
+    
+    .rememberMeContainer {
+        position: absolute;
+        margin-right: 305px;
+        margin-top: 60px;
+        color: #1F7A83;
+    }
+    
+    .rememberMeContainer h2 {
+        font-family: 'Basic';
+        display: inline-block;
+        padding-right: 0px;
+        font-weight: 20;
+    } 
+    
+    h2.text {
+        margin-top: 10px;
+    }
+    
+    input.checkBox {
+        display: inline-block;
+        width: 50px;
+        height: 22px;
+        margin-top: 50px;
+        cursor: pointer;
+        background-color: #1F7A83;
+    }
+    
+    .loginBtnContainer {
+        position: absolute;
+        margin-right: 300px;
+        margin-top: 235px;
+    }
+    
+    .loginBtn {
+        font-family: 'Basic';
+        border-radius: 50px;
+        padding: 20px;
+        width: 200px;
+        height: 60px;
+        border: 2px solid #1F7A83; 
+        background-color: #1F7A83;
+        color: #E1E5F2;
+        font-size: 30px;
+        font-weight: 500;
+        align-content: center;
+    }
+    
+    button a{
+        position: absolute;
+        text-decoration: none;
+        color: #E1E5F2;
+        margin-top: -18px;
+        margin-left: -33px;
+    }
+    
+    .loginBtn:hover {
+        background: linear-gradient(to bottom, #022B3A, #1F7A83);
+        cursor: pointer;
+        transition: 1.7s;
+    }
+    
+    .forgetPassContainer {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-top: 355px;
+    }
+    
+    .forgetPassContainer h3 {
+        font-weight: 50;
+        text-decoration: underline;
+        color: #022B3A;
+        cursor: pointer;
+    }
+    
+    .orContainer {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-right: 0px;
+        margin-top: 440px;
+    }
+    
+    .orContainer  h3{
+        font-weight: 50;
+    }
+    
+    .leftLine {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-left: -235px;
+        margin-top: 32px;
+        width: 220px;
+        height: 2px;
+        background-color: #022B3A;
+    }
+    
+    .rightLine {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-left: 33px;
+        margin-top: -29px;
+        width: 220px;
+        height: 2px;
+        background-color: #022B3A;
+    }
+    
+    .bottomLogos {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-bottom: -550px;
+    }
+    
+    .bottomLogos img {
+        padding: 40px;
+        cursor: pointer;
+    }
+}
+
+/*Desktops and Laptops*/
+@media only screen   
+and (min-width: 1080px)  
+and (max-width: 1920px)  
+{ 
+    body {
+        background: no-repeat;
+        font-family: 'Basic', sans-serif;
+        min-height: 100vh;
+        background: linear-gradient(to bottom, #022B3A, #1F7A83);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .loginForm body {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .containerBg {
+        background-color: #E1E5F2;
+        width: 600px;
+        height: 650px;
+        margin: 0;
+        padding: 0;
+        border-radius: 4%;
+        box-shadow: 0 0px 20px 0 #022B3A;
+    }
+    
+    .logo {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .logo img {
+        width: 80%;
+        margin-left: 30px;
+        margin-bottom: 550px;
+    }
+    
+    .LoginTitle {
+        font-family: 'Basic';
+        position: absolute;
+        margin-right: 400px;
+        font-size: 20px;
+        margin-bottom: 420px;
+    }
+    
+    .LoginTitle h1 {
+        font-family: 'Basic';
+        font-weight: 100;
+    }
+
+    .formStyle .username {
+        position: absolute;
+        margin-left: -550px;
+        margin-top: -140px;
+        font-family: 'Basic';
+        width: 429px;
+        height: 52px;
+        border-radius: 50px;
+        padding-left: 20px;
+        background-color: #022B3A;
+        font-size: 20px;
+        border: 1px solid #022B3A;
+        color: #E1E5F2;
+        width: 450px;
+    }
+
+    .username::placeholder {
+        font-family: 'Basic';
+        color: #E1E5F2;
+        opacity: 0.7;
+    }
+
+    .formStyle .password {
+        position: absolute;
+        margin-left: -550px;
+        margin-top: -60px;
+        font-family: 'Basic';
+        width: 429px;
+        height: 52px;
+        border-radius: 50px;
+        padding-left: 20px;
+        background-color: #022B3A;
+        font-size: 20px;
+        border: 1px solid #022B3A;
+        color: #E1E5F2;
+        width: 450px;
+    }
+
+    .password::placeholder {
+        font-family: 'Basic';
+        color: #E1E5F2;
+        opacity: 0.7;
+    }
+
+    .formStyle .login {
+        position: absolute;
+        margin-left: -550px;
+        margin-top: 100px;
+        font-family: 'Basic';
+        width: 200px;
+        height: 52px;
+        border-radius: 50px;
+        padding-left: 20px;
+        background-color: #1F7A83;
+        font-size: 20px;
+        border: 1px solid #1F7A83;
+        color: #E1E5F2;
+        cursor: pointer;
+    }
+
+    .login:hover {
+        background: linear-gradient(to bottom, #022B3A, #1F7A83);
+    }
+    
+    .rememberMeContainer {
+        position: absolute;
+        margin-right: 305px;
+        margin-top: 60px;
+        color: #1F7A83;
+    }
+    
+    .rememberMeContainer h2 {
+        font-family: 'Basic';
+        display: inline-block;
+        padding-right: 0px;
+        font-weight: 20;
+    } 
+    
+    h2.text {
+        margin-top: 10px;
+    }
+    
+    input.checkBox {
+        display: inline-block;
+        width: 50px;
+        height: 22px;
+        margin-top: 50px;
+        cursor: pointer;
+        background-color: #1F7A83;
+    }
+    
+    .loginBtnContainer {
+        position: absolute;
+        margin-right: 300px;
+        margin-top: 235px;
+    }
+    
+    .loginBtn {
+        font-family: 'Basic';
+        border-radius: 50px;
+        padding: 20px;
+        width: 200px;
+        height: 60px;
+        border: 2px solid #1F7A83; 
+        background-color: #1F7A83;
+        color: #E1E5F2;
+        font-size: 30px;
+        font-weight: 500;
+        align-content: center;
+    }
+    
+    button a{
+        position: absolute;
+        text-decoration: none;
+        color: #E1E5F2;
+        margin-top: -18px;
+        margin-left: -33px;
+    }
+    
+    .loginBtn:hover {
+        background: linear-gradient(to bottom, #022B3A, #1F7A83);
+        cursor: pointer;
+        transition: 1.7s;
+    }
+    
+    .forgetPassContainer {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-top: 355px;
+    }
+    
+    .forgetPassContainer h3 {
+        font-weight: 50;
+        text-decoration: underline;
+        color: #022B3A;
+        cursor: pointer;
+    }
+    
+    .orContainer {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-right: 0px;
+        margin-top: 440px;
+    }
+    
+    .orContainer  h3{
+        font-weight: 50;
+    }
+    
+    .leftLine {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-left: -235px;
+        margin-top: 32px;
+        width: 220px;
+        height: 2px;
+        background-color: #022B3A;
+    }
+    
+    .rightLine {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-left: 33px;
+        margin-top: -29px;
+        width: 220px;
+        height: 2px;
+        background-color: #022B3A;
+    }
+    
+    .bottomLogos {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-bottom: -550px;
+    }
+    
+    .bottomLogos img {
+        padding: 40px;
+        cursor: pointer;
+    }
+}  
+
+/*iPad/Tablet*/
+/* Orientation : Landscape */ 
+@media only screen   
+and (orientation : landscape)   
+and (-webkit-min-device-pixel-ratio: 1)  
+and (min-device-width : 768px)   
+and (max-device-width : 1079px)   
+{
+    body {
+        background: no-repeat;
+        font-family: 'Basic', sans-serif;
+        min-height: 100vh;
+        background: linear-gradient(to bottom, #022B3A, #1F7A83);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .loginForm body {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .containerBg {
+        background-color: #E1E5F2;
+        width: 600px;
+        height: 650px;
+        margin: 0;
+        padding: 0;
+        border-radius: 4%;
+        box-shadow: 0 0px 20px 0 #022B3A;
+    }
+    
+    .logo {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .logo img {
+        width: 80%;
+        margin-left: 30px;
+        margin-bottom: 550px;
+    }
+    
+    .LoginTitle {
+        font-family: 'Basic';
+        position: absolute;
+        margin-right: 400px;
+        font-size: 20px;
+        margin-bottom: 420px;
+    }
+    
+    .LoginTitle h1 {
+        font-family: 'Basic';
+        font-weight: 100;
+    }
+
+    .formStyle .username {
+        position: absolute;
+        margin-left: -550px;
+        margin-top: -140px;
+        font-family: 'Basic';
+        width: 429px;
+        height: 52px;
+        border-radius: 50px;
+        padding-left: 20px;
+        background-color: #022B3A;
+        font-size: 20px;
+        border: 1px solid #022B3A;
+        color: #E1E5F2;
+        width: 450px;
+    }
+
+    .username::placeholder {
+        font-family: 'Basic';
+        color: #E1E5F2;
+        opacity: 0.7;
+    }
+
+    .formStyle .password {
+        position: absolute;
+        margin-left: -550px;
+        margin-top: -60px;
+        font-family: 'Basic';
+        width: 429px;
+        height: 52px;
+        border-radius: 50px;
+        padding-left: 20px;
+        background-color: #022B3A;
+        font-size: 20px;
+        border: 1px solid #022B3A;
+        color: #E1E5F2;
+        width: 450px;
+    }
+
+    .password::placeholder {
+        font-family: 'Basic';
+        color: #E1E5F2;
+        opacity: 0.7;
+    }
+
+    .formStyle .login {
+        position: absolute;
+        margin-left: -550px;
+        margin-top: 100px;
+        font-family: 'Basic';
+        width: 200px;
+        height: 52px;
+        border-radius: 50px;
+        padding-left: 20px;
+        background-color: #1F7A83;
+        font-size: 20px;
+        border: 1px solid #1F7A83;
+        color: #E1E5F2;
+        cursor: pointer;
+    }
+
+    .login:hover {
+        background: linear-gradient(to bottom, #022B3A, #1F7A83);
+    }
+    
+    .rememberMeContainer {
+        position: absolute;
+        margin-right: 305px;
+        margin-top: 60px;
+        color: #1F7A83;
+    }
+    
+    .rememberMeContainer h2 {
+        font-family: 'Basic';
+        display: inline-block;
+        padding-right: 0px;
+        font-weight: 20;
+    } 
+    
+    h2.text {
+        margin-top: 10px;
+    }
+    
+    input.checkBox {
+        display: inline-block;
+        width: 50px;
+        height: 22px;
+        margin-top: 50px;
+        cursor: pointer;
+        background-color: #1F7A83;
+    }
+    
+    .loginBtnContainer {
+        position: absolute;
+        margin-right: 300px;
+        margin-top: 235px;
+    }
+    
+    .loginBtn {
+        font-family: 'Basic';
+        border-radius: 50px;
+        padding: 20px;
+        width: 200px;
+        height: 60px;
+        border: 2px solid #1F7A83; 
+        background-color: #1F7A83;
+        color: #E1E5F2;
+        font-size: 30px;
+        font-weight: 500;
+        align-content: center;
+    }
+    
+    button a{
+        position: absolute;
+        text-decoration: none;
+        color: #E1E5F2;
+        margin-top: -18px;
+        margin-left: -33px;
+    }
+    
+    .loginBtn:hover {
+        background: linear-gradient(to bottom, #022B3A, #1F7A83);
+        cursor: pointer;
+        transition: 1.7s;
+    }
+    
+    .forgetPassContainer {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-top: 355px;
+    }
+    
+    .forgetPassContainer h3 {
+        font-weight: 50;
+        text-decoration: underline;
+        color: #022B3A;
+        cursor: pointer;
+    }
+    
+    .orContainer {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-right: 0px;
+        margin-top: 440px;
+    }
+    
+    .orContainer  h3{
+        font-weight: 50;
+    }
+    
+    .leftLine {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-left: -235px;
+        margin-top: 32px;
+        width: 220px;
+        height: 2px;
+        background-color: #022B3A;
+    }
+    
+    .rightLine {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-left: 33px;
+        margin-top: -29px;
+        width: 220px;
+        height: 2px;
+        background-color: #022B3A;
+    }
+    
+    .bottomLogos {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-bottom: -550px;
+    }
+    
+    .bottomLogos img {
+        padding: 40px;
+        cursor: pointer;
+    }
+}  
+
+/*iPad/Tablet*/
+/* Orientation : Portrait */  
+@media only screen   
+and (orientation : portrait)   
+and (-webkit-min-device-pixel-ratio: 1)   
+and (min-device-width : 768px)   
+and (max-device-width : 1079px)  
+{ 
+    body {
+        background: no-repeat;
+        font-family: 'Basic', sans-serif;
+        min-height: 100vh;
+        background: linear-gradient(to bottom, #022B3A, #1F7A83);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .loginForm body {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .containerBg {
+        background-color: #E1E5F2;
+        width: 600px;
+        height: 650px;
+        margin: 0;
+        padding: 0;
+        border-radius: 4%;
+        box-shadow: 0 0px 20px 0 #022B3A;
+    }
+    
+    .logo {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .logo img {
+        width: 80%;
+        margin-left: 30px;
+        margin-bottom: 550px;
+    }
+    
+    .LoginTitle {
+        font-family: 'Basic';
+        position: absolute;
+        margin-right: 400px;
+        font-size: 20px;
+        margin-bottom: 420px;
+    }
+    
+    .LoginTitle h1 {
+        font-family: 'Basic';
+        font-weight: 100;
+    }
+
+    .formStyle .username {
+        position: absolute;
+        margin-left: -550px;
+        margin-top: -140px;
+        font-family: 'Basic';
+        width: 429px;
+        height: 52px;
+        border-radius: 50px;
+        padding-left: 20px;
+        background-color: #022B3A;
+        font-size: 20px;
+        border: 1px solid #022B3A;
+        color: #E1E5F2;
+        width: 450px;
+    }
+
+    .username::placeholder {
+        font-family: 'Basic';
+        color: #E1E5F2;
+        opacity: 0.7;
+    }
+
+    .formStyle .password {
+        position: absolute;
+        margin-left: -550px;
+        margin-top: -60px;
+        font-family: 'Basic';
+        width: 429px;
+        height: 52px;
+        border-radius: 50px;
+        padding-left: 20px;
+        background-color: #022B3A;
+        font-size: 20px;
+        border: 1px solid #022B3A;
+        color: #E1E5F2;
+        width: 450px;
+    }
+
+    .password::placeholder {
+        font-family: 'Basic';
+        color: #E1E5F2;
+        opacity: 0.7;
+    }
+
+    .formStyle .login {
+        position: absolute;
+        margin-left: -550px;
+        margin-top: 100px;
+        font-family: 'Basic';
+        width: 200px;
+        height: 52px;
+        border-radius: 50px;
+        padding-left: 20px;
+        background-color: #1F7A83;
+        font-size: 20px;
+        border: 1px solid #1F7A83;
+        color: #E1E5F2;
+        cursor: pointer;
+    }
+
+    .login:hover {
+        background: linear-gradient(to bottom, #022B3A, #1F7A83);
+    }
+    
+    .rememberMeContainer {
+        position: absolute;
+        margin-right: 305px;
+        margin-top: 60px;
+        color: #1F7A83;
+    }
+    
+    .rememberMeContainer h2 {
+        font-family: 'Basic';
+        display: inline-block;
+        padding-right: 0px;
+        font-weight: 20;
+    } 
+    
+    h2.text {
+        margin-top: 10px;
+    }
+    
+    input.checkBox {
+        display: inline-block;
+        width: 50px;
+        height: 22px;
+        margin-top: 50px;
+        cursor: pointer;
+        background-color: #1F7A83;
+    }
+    
+    .loginBtnContainer {
+        position: absolute;
+        margin-right: 300px;
+        margin-top: 235px;
+    }
+    
+    .loginBtn {
+        font-family: 'Basic';
+        border-radius: 50px;
+        padding: 20px;
+        width: 200px;
+        height: 60px;
+        border: 2px solid #1F7A83; 
+        background-color: #1F7A83;
+        color: #E1E5F2;
+        font-size: 30px;
+        font-weight: 500;
+        align-content: center;
+    }
+    
+    button a{
+        position: absolute;
+        text-decoration: none;
+        color: #E1E5F2;
+        margin-top: -18px;
+        margin-left: -33px;
+    }
+    
+    .loginBtn:hover {
+        background: linear-gradient(to bottom, #022B3A, #1F7A83);
+        cursor: pointer;
+        transition: 1.7s;
+    }
+    
+    .forgetPassContainer {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-top: 355px;
+    }
+    
+    .forgetPassContainer h3 {
+        font-weight: 50;
+        text-decoration: underline;
+        color: #022B3A;
+        cursor: pointer;
+    }
+    
+    .orContainer {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-right: 0px;
+        margin-top: 440px;
+    }
+    
+    .orContainer  h3{
+        font-weight: 50;
+    }
+    
+    .leftLine {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-left: -235px;
+        margin-top: 32px;
+        width: 220px;
+        height: 2px;
+        background-color: #022B3A;
+    }
+    
+    .rightLine {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-left: 33px;
+        margin-top: -29px;
+        width: 220px;
+        height: 2px;
+        background-color: #022B3A;
+    }
+    
+    .bottomLogos {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-bottom: -550px;
+    }
+    
+    .bottomLogos img {
+        padding: 40px;
+        cursor: pointer;
+    }
+}  
+
+/*Mobile resolution 480*/
+@media only screen   
+and (min-device-width : 50px)   
+and (max-device-width : 480px)  
+{
+    body {
+        background: no-repeat;
+        font-family: 'Basic', sans-serif;
+        min-height: 100vh;
+        background: linear-gradient(to bottom, #022B3A, #1F7A83);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .loginForm body {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .containerBg {
+        background-color: #E1E5F2;
+        width: 280px;
+        height: 700px;
+        margin-left: 7px;
+        padding: 0;
+        border-radius: 50px;
+        box-shadow: 0 0px 20px 0 #022B3A;
+    }
+    
+    .logo {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .logo img {
+        width: 65%;
+        margin-left: 60px;
+        margin-bottom: 600px;
+    }
+    
+    .LoginTitle {
+        font-family: 'Basic';
+        position: absolute;
+        margin-left: 0px;
+        font-size: 15px;
+        margin-bottom: 500px;
+    }
+    
+    .LoginTitle h1 {
+        font-family: 'Basic';
+        font-weight: 100;
+    }
+
+    .formStyle .username {
+        position: absolute;
+        margin-left: -252px;
+        margin-top: -200px;
+        font-family: 'Basic';
+        width: 200px;
+        height: 40px;
+        border-radius: 50px;
+        padding-left: 20px;
+        background-color: #022B3A;
+        font-size: 20px;
+        border: 1px solid #022B3A;
+        color: #E1E5F2;
+    }
+
+    .username::placeholder {
+        font-family: 'Basic';
+        color: #E1E5F2;
+        opacity: 0.7;
+    }
+
+    .formStyle .password {
+        position: absolute;
+        margin-left: -252px;
+        margin-top: -130px;
+        font-family: 'Basic';
+        width: 200px;
+        height: 40px;
+        border-radius: 50px;
+        padding-left: 20px;
+        background-color: #022B3A;
+        font-size: 20px;
+        border: 1px solid #022B3A;
+        color: #E1E5F2;
+    }
+
+    .password::placeholder {
+        font-family: 'Basic';
+        color: #E1E5F2;
+        opacity: 0.7;
+    }
+
+    .formStyle .login {
+        position: absolute;
+        margin-left: -245px;
+        margin-top: 0px;
+        font-family: 'Basic';
+        width: 200px;
+        height: 40px;
+        border-radius: 50px;
+        padding-left: 10px;
+        background-color: #022B3A;
+        font-size: 20px;
+        border: 1px solid #022B3A;
+        color: #E1E5F2;
+        cursor: pointer;
+    }
+
+    .login:hover {
+        background: linear-gradient(to bottom, #022B3A, #1F7A83);
+    }
+    
+    .rememberMeContainer {
+        position: absolute;
+        margin-right: 20px;
+        margin-top: -110px;
+        color: #1F7A83;
+    }
+    
+    .rememberMeContainer h2 {
+        font-family: 'Basic';
+        display: inline-block;
+        padding-right: 0px;
+        font-weight: 20;
+    } 
+    
+    h2.text {
+        margin-top: 10px;
+    }
+    
+    input.checkBox {
+        display: inline-block;
+        width: 50px;
+        height: 22px;
+        margin-top: 50px;
+        cursor: pointer;
+        background-color: #1F7A83;
+    }
+    
+    .loginBtnContainer {
+        position: absolute;
+        margin-right: 300px;
+        margin-top: 235px;
+    }
+    
+    .loginBtn {
+        font-family: 'Basic';
+        border-radius: 50px;
+        padding: 20px;
+        width: 200px;
+        height: 60px;
+        border: 2px solid #1F7A83; 
+        background-color: #1F7A83;
+        color: #E1E5F2;
+        font-size: 30px;
+        font-weight: 500;
+        align-content: center;
+    }
+    
+    button a{
+        position: absolute;
+        text-decoration: none;
+        color: #E1E5F2;
+        margin-top: -18px;
+        margin-left: -33px;
+    }
+    
+    .loginBtn:hover {
+        background: linear-gradient(to bottom, #022B3A, #1F7A83);
+        cursor: pointer;
+        transition: 1.7s;
+    }
+    
+    .forgetPassContainer {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-top: 180px;
+    }
+    
+    .forgetPassContainer h3 {
+        font-weight: 50;
+        text-decoration: underline;
+        color: #022B3A;
+        cursor: pointer;
+        font-size: 15px;
+    }
+    
+    .orContainer {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-right: -5px;
+        margin-top: 350px;
+    }
+    
+    .orContainer  h3{
+        font-weight: 50;
+    }
+    
+    .leftLine {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-left: -100px;
+        margin-top: 32px;
+        width: 80px;
+        height: 2px;
+        background-color: #022B3A;
+    }
+    
+    .rightLine {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-left: 40px;
+        margin-top: -29.5px;
+        width: 80px;
+        height: 2px;
+        background-color: #022B3A;
+    }
+    
+    .bottomLogos {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-bottom: -550px;
+        margin-left: 40px;
+    }
+    
+    .bottomLogos img {
+        padding: 10px;
+        cursor: pointer;
+        width: 20%;
+    }
+} 
+
+/*Mobile resolution 640*/  
+@media only screen   
+and (min-device-width : 360px)   
+and (max-device-width : 767px)  
+{
+    body {
+        background: no-repeat;
+        font-family: 'Basic', sans-serif;
+        min-height: 100vh;
+        background: linear-gradient(to bottom, #022B3A, #1F7A83);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .loginForm body {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .containerBg {
+        background-color: #E1E5F2;
+        width: 280px;
+        height: 700px;
+        margin-left: 7px;
+        padding: 0;
+        border-radius: 50px;
+        box-shadow: 0 0px 20px 0 #022B3A;
+    }
+    
+    .logo {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .logo img {
+        width: 65%;
+        margin-left: 66px;
+        margin-bottom: 600px;
+    }
+    
+    .LoginTitle {
+        font-family: 'Basic';
+        position: absolute;
+        margin-left: 0px;
+        font-size: 15px;
+        margin-bottom: 500px;
+    }
+    
+    .LoginTitle h1 {
+        font-family: 'Basic';
+        font-weight: 100;
+    }
+
+    .formStyle .username {
+        position: absolute;
+        margin-left: -252px;
+        margin-top: -200px;
+        font-family: 'Basic';
+        width: 200px;
+        height: 40px;
+        border-radius: 50px;
+        padding-left: 20px;
+        background-color: #022B3A;
+        font-size: 20px;
+        border: 1px solid #022B3A;
+        color: #E1E5F2;
+    }
+
+    .username::placeholder {
+        font-family: 'Basic';
+        color: #E1E5F2;
+        opacity: 0.7;
+    }
+
+    .formStyle .password {
+        position: absolute;
+        margin-left: -252px;
+        margin-top: -130px;
+        font-family: 'Basic';
+        width: 200px;
+        height: 40px;
+        border-radius: 50px;
+        padding-left: 20px;
+        background-color: #022B3A;
+        font-size: 20px;
+        border: 1px solid #022B3A;
+        color: #E1E5F2;
+    }
+
+    .password::placeholder {
+        font-family: 'Basic';
+        color: #E1E5F2;
+        opacity: 0.7;
+    }
+
+    .formStyle .login {
+        position: absolute;
+        margin-left: -245px;
+        margin-top: 0px;
+        font-family: 'Basic';
+        width: 200px;
+        height: 40px;
+        border-radius: 50px;
+        padding-left: 10px;
+        background-color: #022B3A;
+        font-size: 20px;
+        border: 1px solid #022B3A;
+        color: #E1E5F2;
+        cursor: pointer;
+    }
+
+    .login:hover {
+        background: linear-gradient(to bottom, #022B3A, #1F7A83);
+    }
+    
+    .rememberMeContainer {
+        position: absolute;
+        margin-right: 20px;
+        margin-top: -110px;
+        color: #1F7A83;
+    }
+    
+    .rememberMeContainer h2 {
+        font-family: 'Basic';
+        display: inline-block;
+        padding-right: 0px;
+        font-weight: 20;
+    } 
+    
+    h2.text {
+        margin-top: 10px;
+    }
+    
+    input.checkBox {
+        display: inline-block;
+        width: 50px;
+        height: 22px;
+        margin-top: 50px;
+        cursor: pointer;
+        background-color: #1F7A83;
+    }
+    
+    .loginBtnContainer {
+        position: absolute;
+        margin-right: 300px;
+        margin-top: 235px;
+    }
+    
+    .loginBtn {
+        font-family: 'Basic';
+        border-radius: 50px;
+        padding: 20px;
+        width: 200px;
+        height: 60px;
+        border: 2px solid #1F7A83; 
+        background-color: #1F7A83;
+        color: #E1E5F2;
+        font-size: 30px;
+        font-weight: 500;
+        align-content: center;
+    }
+    
+    button a{
+        position: absolute;
+        text-decoration: none;
+        color: #E1E5F2;
+        margin-top: -18px;
+        margin-left: -33px;
+    }
+    
+    .loginBtn:hover {
+        background: linear-gradient(to bottom, #022B3A, #1F7A83);
+        cursor: pointer;
+        transition: 1.7s;
+    }
+    
+    .forgetPassContainer {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-top: 180px;
+    }
+    
+    .forgetPassContainer h3 {
+        font-weight: 50;
+        text-decoration: underline;
+        color: #022B3A;
+        cursor: pointer;
+        font-size: 15px;
+    }
+    
+    .orContainer {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-right: -5px;
+        margin-top: 350px;
+    }
+    
+    .orContainer  h3{
+        font-weight: 50;
+    }
+    
+    .leftLine {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-left: -100px;
+        margin-top: 32px;
+        width: 80px;
+        height: 2px;
+        background-color: #022B3A;
+    }
+    
+    .rightLine {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-left: 40px;
+        margin-top: -29.5px;
+        width: 80px;
+        height: 2px;
+        background-color: #022B3A;
+    }
+    
+    .bottomLogos {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-bottom: -550px;
+        margin-left: 40px;
+    }
+    
+    .bottomLogos img {
+        padding: 10px;
+        cursor: pointer;
+        width: 20%;
+    }
+}  

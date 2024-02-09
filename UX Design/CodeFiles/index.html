@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Assets/images/favicon.svg">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Basic">
+    <script src="interactive.js"></script>
+    <title>Healthiosk | Login</title>
+</head>
+<body class="loginForm">
+        <div class="containerBg"></div>
+        <!--<div class="containerOpaqueBg"></div>-->
+        <div class="logo">
+            <img src="Assets/images/Logo.png" alt="Healthiosk Logo">
+        </div>
+        <div class="LoginTitle">
+            <h1>Login</h1>
+        </div>
+        <form class="formStyle" action="choice.html">
+            <input class="username" type="text" id="txt" placeholder="Username" required/>
+            <input class="password" type="password" placeholder="Password" required/>
+            <input class="login" type="submit" value="Login" onclick="displayUsername();">
+        </form>
+        <span>
+            <i class="fa fa-eye" aria-hidden="true"  type="button" id="eye"></i>
+         </span>
+        <div class="rememberMeContainer">
+            <input type="checkbox" class="checkBox">
+            <h2 class="text">Remember Me</h2>
+        </div>
+        <div class="forgetPassContainer">
+            <h3>Forgot your password? Request new</h3>
+        </div>
+        <div class="orContainer">
+            <div class="leftLine"></div>
+            <h3>or</h3>
+            <div class="rightLine"></div>
+        </div>
+        <div class="bottomLogos">
+            <img src="./Assets/images/facebook.png" alt="facebook">
+            <img src="./Assets/images/google+.png" alt="google+">
+            <img src="./Assets/images/outlook.png" alt="outlook">
+        </div>
+</body>
+</html>

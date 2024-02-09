@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Assets/images/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+    <script src="interactive.js"></script>
+    <title>Healthiosk</title>
+</head>
+<body>
+    <div class="logo">
+        <img src="Assets/images/Logo.png" alt="Healthiosk Logo">
+    </div>
+    <div class="profile">
+        <h1>Welcome&nbsp<span id="result"></span></h1>
+        <img src="./Assets/images/Icon open-person.png" alt="avatar">
+    </div>
+    <script>
+        document.getElementById("result").innerHTML=localStorage.getItem("textvalue");
+    </script>
+    <div class="logout">
+        <a id="hoverJS" onmouseover="mouseOver()" onmouseout="mouseOut()" href="./index.html">Log Out</a>
+    </div>
+    <div class="cardChoice" style="margin-top: -280px;">
+        <div class="card-side front">
+          <img src="./Assets/images/Icon awesome-notes-medical.png" alt="Medical">
+          <h1>Medical Information</h1>
+          <h3>Information about medical services our health centre provides.</h3>
+        </div>
+        <div class="card-side back">
+            <a href="./medical.html">Read More</a>
+        </div>
+    </div>
+      <div class="card2_C" style="margin-top: -280px;">
+        <div class="card-side front2">
+            <img src="./Assets/images/Icon awesome-parking.png" alt="Non-Medical">
+            <h1>Non-Medical Information</h1>
+            <h3>Information about our amenities and services in the healthcare centre premises.</h3>
+        </div>
+        <div class="card-side back2">
+            <a href="./non-medical.html">Read More</a>
+        </div>
+    </div>
+    <img style="width: 15%; margin-top: 620px; margin-left: -850px;" src="Assets/images/HIRO.jpeg" alt="hiro marker">
+</body>
+</html>
